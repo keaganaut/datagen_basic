@@ -81,18 +81,7 @@ transaction_cols = {
             * 100
         )
         for i in range(row_count)
-    ]
-    # "amount_cents": [
-    #     round(
-    #         (
-    #             numpy.random.normal(loc=25, scale=6.5)
-    #             + (4.20 if df_orders["type"][i] == "delivery" else 0)
-    #         ),
-    #         2,
-    #     )
-    #     * 100
-    #     for i in range(row_count)
-    # ],
+    ],
 }
 
 
